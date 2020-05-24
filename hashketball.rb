@@ -175,7 +175,7 @@ def player_numbers(team)
   game_hash.each do |key, value|
     if value[:team_name] == team
       value[:players].each do |inner_key|
-        inner_key[:number]
+        player_numbers << inner_key[:number]
       end
     end
   end
