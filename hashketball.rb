@@ -196,7 +196,7 @@ end
 
 def big_shoe_rebounds
   shoe_sizes = []
-  rebounds
+  rebounds = ''
   game_hash.each do |key, value|
     value[:players].each do |inner_key|
       shoe_sizes << inner_key[:shoe]
