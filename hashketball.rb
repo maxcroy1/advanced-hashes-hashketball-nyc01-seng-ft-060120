@@ -165,6 +165,6 @@ end
 
 def team_names
   game_hash.each do |key, value|
-    
+    binding.pry
   end
 end
