@@ -172,7 +172,7 @@ end
 
 def player_numbers(team)
   player_numbers = game_hash.map do |key, value|
-    if value[:team_name] == team
+    if value[:team_name] == teamv
     binding.pry
   end
 end
