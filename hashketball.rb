@@ -196,4 +196,5 @@ end
 
 def big_shoe_rebounds
   shoe_sizes = []
+  game_hash.each do |key, value|
 end
