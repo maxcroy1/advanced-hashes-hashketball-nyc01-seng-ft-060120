@@ -165,6 +165,7 @@ end
 
 def team_names
   teams = game_hash.map do |key, value|
+    value
     binding.pry
   end
 end
