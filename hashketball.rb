@@ -203,6 +203,8 @@ def big_shoe_rebounds
     end
   end
   game_hash.each do |key, value|
+    value[:players].each do |inner_key|
+      if inner_key[:shoe] == shoe_sizes.max
   end
   binding.pry
 end
