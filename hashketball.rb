@@ -168,4 +168,5 @@ def team_names
     value[:team_name]
   end
   binding.pry
+  teams
 end
