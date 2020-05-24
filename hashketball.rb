@@ -176,6 +176,5 @@ def player_numbers(team)
       value[:players].each do |inner_key, number|
       end
     end
-    binding.pry
   end
 end
