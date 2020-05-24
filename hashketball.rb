@@ -186,6 +186,7 @@ def player_stats(player)
   stats = {}
   game_hash.each do |key, value|
     value[:players].each do |inner_key|
+      binding.pry
     end
   end
   stats
