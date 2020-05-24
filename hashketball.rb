@@ -172,6 +172,6 @@ end
 
 def player_numbers(team)
   player_numbers = game_hash.map do |key, value|
-    
+    binding.pry
   end
 end
