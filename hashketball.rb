@@ -175,8 +175,8 @@ def player_numbers(team)
     if value[:team_name] == team
       value[:players].each do |inner_key|
         inner_key[:number]
-        binding.pry
       end
     end
   end
+  binding.pry
 end
