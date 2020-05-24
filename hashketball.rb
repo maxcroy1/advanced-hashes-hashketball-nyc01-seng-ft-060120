@@ -170,7 +170,7 @@ def team_names
   teams
 end
 
-def player_numbers
+def player_numbers(team)
   player_numbers = game_hash.map do |key, value|
     
   end
