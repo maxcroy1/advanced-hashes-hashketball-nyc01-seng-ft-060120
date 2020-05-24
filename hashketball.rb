@@ -189,8 +189,8 @@ def player_stats(player)
       if inner_key[:player_name] == player
         stats = inner_key.delete(:player_name)
       end
-      binding.pry
     end
   end
+  
   stats
 end
